@@ -1,0 +1,8 @@
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/install.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/game_sfml.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/install/local.dir
+/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/game.dir
