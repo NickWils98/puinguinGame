@@ -1,4 +1,4 @@
-# Install script for directory: /home/nick/CLionProjects/game
+# Install script for directory: /home/nick/Desktop/puinguinGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml")
+  if(EXISTS "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml"
+         FILE "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nick/CLionProjects/game/bin/game_sfml")
+   "/home/nick/Desktop/puinguinGame/bin/game_sfml")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/nick/CLionProjects/game/bin" TYPE EXECUTABLE FILES "/home/nick/CLionProjects/game/cmake-build-debug/game_sfml")
-  if(EXISTS "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml")
+file(INSTALL DESTINATION "/home/nick/Desktop/puinguinGame/bin" TYPE EXECUTABLE FILES "/home/nick/Desktop/puinguinGame/cmake-build-debug/game_sfml")
+  if(EXISTS "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/nick/CLionProjects/game/bin/game_sfml")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/nick/Desktop/puinguinGame/bin/game_sfml")
     endif()
   endif()
 endif()
@@ -64,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/CLionProjects/game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/Desktop/puinguinGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -43,10 +43,10 @@ RM = /home/nick/clion-2017.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/CLionProjects/game
+CMAKE_SOURCE_DIR = /home/nick/Desktop/puinguinGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/CLionProjects/game/cmake-build-debug
+CMAKE_BINARY_DIR = /home/nick/Desktop/puinguinGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game_sfml.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/game_sfml.dir/flags.make
 
 CMakeFiles/game_sfml.dir/main.cpp.o: CMakeFiles/game_sfml.dir/flags.make
 CMakeFiles/game_sfml.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_sfml.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/main.cpp.o -c /home/nick/CLionProjects/game/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game_sfml.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/main.cpp.o -c /home/nick/Desktop/puinguinGame/main.cpp
 
 CMakeFiles/game_sfml.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_sfml.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/game/main.cpp > CMakeFiles/game_sfml.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Desktop/puinguinGame/main.cpp > CMakeFiles/game_sfml.dir/main.cpp.i
 
 CMakeFiles/game_sfml.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_sfml.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/game/main.cpp -o CMakeFiles/game_sfml.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Desktop/puinguinGame/main.cpp -o CMakeFiles/game_sfml.dir/main.cpp.s
 
 CMakeFiles/game_sfml.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/game_sfml.dir/main.cpp.o.provides.build: CMakeFiles/game_sfml.dir/mai
 
 CMakeFiles/game_sfml.dir/Animation.cpp.o: CMakeFiles/game_sfml.dir/flags.make
 CMakeFiles/game_sfml.dir/Animation.cpp.o: ../Animation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_sfml.dir/Animation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Animation.cpp.o -c /home/nick/CLionProjects/game/Animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game_sfml.dir/Animation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Animation.cpp.o -c /home/nick/Desktop/puinguinGame/Animation.cpp
 
 CMakeFiles/game_sfml.dir/Animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_sfml.dir/Animation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/game/Animation.cpp > CMakeFiles/game_sfml.dir/Animation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Desktop/puinguinGame/Animation.cpp > CMakeFiles/game_sfml.dir/Animation.cpp.i
 
 CMakeFiles/game_sfml.dir/Animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_sfml.dir/Animation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/game/Animation.cpp -o CMakeFiles/game_sfml.dir/Animation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Desktop/puinguinGame/Animation.cpp -o CMakeFiles/game_sfml.dir/Animation.cpp.s
 
 CMakeFiles/game_sfml.dir/Animation.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/game_sfml.dir/Animation.cpp.o.provides.build: CMakeFiles/game_sfml.di
 
 CMakeFiles/game_sfml.dir/Player.cpp.o: CMakeFiles/game_sfml.dir/flags.make
 CMakeFiles/game_sfml.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_sfml.dir/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Player.cpp.o -c /home/nick/CLionProjects/game/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game_sfml.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Player.cpp.o -c /home/nick/Desktop/puinguinGame/Player.cpp
 
 CMakeFiles/game_sfml.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_sfml.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/game/Player.cpp > CMakeFiles/game_sfml.dir/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Desktop/puinguinGame/Player.cpp > CMakeFiles/game_sfml.dir/Player.cpp.i
 
 CMakeFiles/game_sfml.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_sfml.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/game/Player.cpp -o CMakeFiles/game_sfml.dir/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Desktop/puinguinGame/Player.cpp -o CMakeFiles/game_sfml.dir/Player.cpp.s
 
 CMakeFiles/game_sfml.dir/Player.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/game_sfml.dir/Player.cpp.o.provides.build: CMakeFiles/game_sfml.dir/P
 
 CMakeFiles/game_sfml.dir/Collider.cpp.o: CMakeFiles/game_sfml.dir/flags.make
 CMakeFiles/game_sfml.dir/Collider.cpp.o: ../Collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game_sfml.dir/Collider.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Collider.cpp.o -c /home/nick/CLionProjects/game/Collider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game_sfml.dir/Collider.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Collider.cpp.o -c /home/nick/Desktop/puinguinGame/Collider.cpp
 
 CMakeFiles/game_sfml.dir/Collider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_sfml.dir/Collider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/game/Collider.cpp > CMakeFiles/game_sfml.dir/Collider.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Desktop/puinguinGame/Collider.cpp > CMakeFiles/game_sfml.dir/Collider.cpp.i
 
 CMakeFiles/game_sfml.dir/Collider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_sfml.dir/Collider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/game/Collider.cpp -o CMakeFiles/game_sfml.dir/Collider.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Desktop/puinguinGame/Collider.cpp -o CMakeFiles/game_sfml.dir/Collider.cpp.s
 
 CMakeFiles/game_sfml.dir/Collider.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/game_sfml.dir/Collider.cpp.o.provides.build: CMakeFiles/game_sfml.dir
 
 CMakeFiles/game_sfml.dir/Platform.cpp.o: CMakeFiles/game_sfml.dir/flags.make
 CMakeFiles/game_sfml.dir/Platform.cpp.o: ../Platform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game_sfml.dir/Platform.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Platform.cpp.o -c /home/nick/CLionProjects/game/Platform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game_sfml.dir/Platform.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game_sfml.dir/Platform.cpp.o -c /home/nick/Desktop/puinguinGame/Platform.cpp
 
 CMakeFiles/game_sfml.dir/Platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_sfml.dir/Platform.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/CLionProjects/game/Platform.cpp > CMakeFiles/game_sfml.dir/Platform.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Desktop/puinguinGame/Platform.cpp > CMakeFiles/game_sfml.dir/Platform.cpp.i
 
 CMakeFiles/game_sfml.dir/Platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_sfml.dir/Platform.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/CLionProjects/game/Platform.cpp -o CMakeFiles/game_sfml.dir/Platform.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Desktop/puinguinGame/Platform.cpp -o CMakeFiles/game_sfml.dir/Platform.cpp.s
 
 CMakeFiles/game_sfml.dir/Platform.cpp.o.requires:
 
@@ -198,7 +198,7 @@ game_sfml: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 game_sfml: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 game_sfml: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 game_sfml: CMakeFiles/game_sfml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable game_sfml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable game_sfml"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game_sfml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +219,6 @@ CMakeFiles/game_sfml.dir/clean:
 .PHONY : CMakeFiles/game_sfml.dir/clean
 
 CMakeFiles/game_sfml.dir/depend:
-	cd /home/nick/CLionProjects/game/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/CLionProjects/game /home/nick/CLionProjects/game /home/nick/CLionProjects/game/cmake-build-debug /home/nick/CLionProjects/game/cmake-build-debug /home/nick/CLionProjects/game/cmake-build-debug/CMakeFiles/game_sfml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nick/Desktop/puinguinGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/Desktop/puinguinGame /home/nick/Desktop/puinguinGame /home/nick/Desktop/puinguinGame/cmake-build-debug /home/nick/Desktop/puinguinGame/cmake-build-debug /home/nick/Desktop/puinguinGame/cmake-build-debug/CMakeFiles/game_sfml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/game_sfml.dir/depend
 

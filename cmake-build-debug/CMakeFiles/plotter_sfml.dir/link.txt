@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/plotter_sfml.dir/main.cpp.o  -o plotter_sfml /usr/lib/x86_64-linux-gnu/libsfml-system.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-graphics.so 
